@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="85dp"
+  android:weightSum="1"
+  android:orientation="vertical"
+  android:background="@drawable/corners">
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Large Text"
+    android:id="@+id/txtTitle"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:layout_weight="0.4"
+    android:paddingTop="3dp"
+    android:textAlignment="center"
+    android:textSize="18sp"
+    android:textColor="@color/white"
+    android:singleLine="true"/>
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:id="@+id/line"
+    android:background="@color/white"/>
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.6"
+    android:text="Mac Address"
+    android:id="@+id/txtMacAddress"
+    android:textOff="@string/button_disconnect"
+    android:textOn="@string/button_connect"
+    android:textColor="#fff" />
+
+
+</LinearLayout>
